@@ -5,7 +5,7 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 
 # Class 1: Introduction to TypeScript and Web Concepts
 
-- **`TypeScript Introduction:`** {TypeScript](https://www.typescriptlang.org/) is a programming language that builds upon JavaScript by adding static type-checking and other features. It enhances code quality and helps catch errors early in development.
+- **`TypeScript Introduction:`** [TypeScript](https://www.typescriptlang.org/) is a programming language that builds upon JavaScript by adding static type-checking and other features. It enhances code quality and helps catch errors early in development.
 - **`Web Concepts:`** Understand the evolution from Web 1.0 to Web 2.0 to Web 3.0: These terms refer to different stages in the evolution of the World Wide Web. Web 1.0 was the static web of early days, Web 2.0 brought interactive and social elements, and Web 3.0 aims to create a more intelligent, decentralized web.
 - **`Introduction to Next.js:`**  Next.js is a popular React framework for building web applications. It enhances React with features like server-side rendering and routing.
 - **`Serverless Technology:`** [Serverless computing](https://www.cloudflare.com/learning/serverless/what-is-serverless/) allows developers to focus on writing code without managing server infrastructure. It automatically scales based on demand.
@@ -20,7 +20,7 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - **`Primitive Data Types:`** Explore string, number, boolean, undefined, Symbol, BigInt, and null types.
 - **`Template Literals:`**  Creating strings with embedded expressions for easier concatenation and formatting.
 - **`Operators In Typescript:`** Using arithmetic, assignment, comparison, and logical operators to manipulate values.
-- ## Online Recorded Sessions & videos:
+- ### Online Recorded Sessions & videos:
   - [Operators](https://www.youtube.com/watch?v=wxS7j9q0nyc)
   - [Template Literals](https://www.youtube.com/watch?v=PFzeMUojeQY&t=80s&pp=ygUadGVtcGxhdGUgbGl0ZXJhbHMgaW4gaGluZGk%3D)
   - [Primitive Data Types](https://youtu.be/qpU3WIqRz9I?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR)
@@ -34,7 +34,7 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - **`Prompt Library:`** Learn how to take user input using the [Prompt library](https://www.npmjs.com/package/prompt).
 - **`Functions in TypeScript:`** Functions in TypeScript are named code blocks used to encapsulate and reuse sets of instructions, enhancing code organization and maintainability.
 - **`Array in TypeScript:`** Arrays in TypeScript are data structures that allow you to store collections of values of the same or different types. They are a fundamental part of programming and are used to manage lists of items efficiently. 
-- ## Online Recorded Sessions & videos:
+- ### Online Recorded Sessions & videos:
   - Functions: [Part 1](https://www.youtube.com/watch?v=8yc2Yd8kJ_E) & [Part 2](https://www.youtube.com/watch?v=iRan4VCOy0A)
   - Array & Array Methods: [Part 1](https://www.youtube.com/watch?v=S7FfBHs-_BU), [Part 2](https://www.youtube.com/watch?v=ScuESgM3KWE) & [Part3](https://www.youtube.com/watch?v=dCMt2lr5Hrs)
 - ## Assignments:
@@ -48,7 +48,7 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - **`Conditional Statements:`** Conditional statements are programming constructs that allow you to make decisions in your code based on certain conditions. They control the flow of your program by executing different blocks of code depending on whether a specified condition is true or false.
 - **`Nested Statements:`** Nested statements are programming constructs where one or more statements are placed within another statement's block of code. We use nested statements to build more complex logic and implement decision-making processes that involve multiple levels of conditions.
 - **`For Loops:`** A "for loop" is a programming construct that allows you to repetitively execute a block of code for a predetermined number of iterations. It consists of three main components: initialization, a condition, and an iteration statement.
-- ## Online Recorded Sessions & videos:
+- ### Online Recorded Sessions & videos:
   - [Arrow Function](https://www.youtube.com/watch?v=44aVMRtxKyc)
   - Conditional Statements: [Part 1](https://www.youtube.com/watch?v=MrRJqVtxETs) & [Part 2](https://www.youtube.com/watch?v=bGjWAbMfkNE)
   - [Loops](https://www.youtube.com/watch?v=QsaHgcjPqH8)
