@@ -58,10 +58,18 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 
 # Class 5: Modules and Asynchronous Operations
 
-- **`CommonJS Modules vs. ECMA Modules:`** Understand the differences between these module systems.
-- **`Asynchronous vs. Synchronous Operations:`** Learn about operations that run asynchronously or synchronously.
-- **`Inquirer and Chalk Libraries:`** Introduce the Inquirer and Chalk libraries for enhanced user interactions and console output.
+- **`CommonJS Modules vs. ECMA Modules:`** Difference between CommonJS and ECMAScript modules lies in their syntax, loading mechanisms, and compatibility with different environments. While CommonJS is commonly used in Node.js and follows a synchronous approach, ECMAScript modules are used both in browsers and Node.js, and they use asynchronous loading with a more structured syntax.
+- **`Asynchronous vs. Synchronous Operations:`**
+  - **Synchronous Operations:** Blocking, sequential execution, and tasks are completed in a specific order. Execution follows a single-threaded approach.
+  - **Asynchronous Operations:** Non-blocking, tasks can be executed in parallel or concurrently, and execution is often associated with callbacks, promises, or async/await mechanisms.
+- **`Aync Await Syntax:`** async and await are features in JavaScript that make it easier to work with asynchronous code. An async function returns a promise and can use the await keyword to pause execution until an asynchronous task is done, making code look more like traditional synchronous code.
+- **`Inquirer Librarie:`** Inquirer is a powerful Node.js library that simplifies the process of creating interactive command-line interfaces (CLIs). It provides a collection of prompts and utilities for easily gathering user input and building user-friendly command-line applications.
+- **`Chalk Librarie:`** Chalk is a Node.js library for styling text in the terminal. It allows you to apply colors and formatting to the output text in your command-line applications, making them more visually appealing and easier to read.
 - **`Further Learning:`** For more information, you can explore the [Inquirer documentation](https://www.npmjs.com/package/inquirer) and [Chalk documentation](https://www.npmjs.com/package/chalk).
+- ### Online Recorded Sessions & videos:
+  - Cjs & ES Modules: [Part 1](https://www.youtube.com/watch?v=RNkAHEyRk8A&t=154s) & [Part 2](https://www.youtube.com/watch?v=QqLO8wqlMf0)
+  - [Asynchronous & Synchronous](https://www.youtube.com/watch?v=i7Ws2AkZDKg)
+  - [Aync Await Syntax](https://youtu.be/bLre6Uf4Op0?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR)
 - ### Assignments:
   - Complete assignments related to modules and understanding asynchronous operations.
 - ## [Class 5 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-5)
