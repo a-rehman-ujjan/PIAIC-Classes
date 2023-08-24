@@ -38,7 +38,8 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
   - Functions: [Part 1](https://www.youtube.com/watch?v=8yc2Yd8kJ_E) & [Part 2](https://www.youtube.com/watch?v=iRan4VCOy0A)
   - Array & Array Methods: [Part 1](https://www.youtube.com/watch?v=S7FfBHs-_BU), [Part 2](https://www.youtube.com/watch?v=ScuESgM3KWE) & [Part3](https://www.youtube.com/watch?v=dCMt2lr5Hrs)
 - ## Assignments:
-  - Implement a grading system using functions and arrays.
+  - **Building a grading system:** Assigned students to build a grading system using user input and conditional statements.
+  - **User input handling with Prompt:** Practically implemented user input capture using Prompt.
 - ### [Class 3 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-3)
 
 # Class 4: Conditional Statements and Loops
@@ -53,7 +54,7 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
   - Conditional Statements: [Part 1](https://www.youtube.com/watch?v=MrRJqVtxETs) & [Part 2](https://www.youtube.com/watch?v=bGjWAbMfkNE)
   - [Loops](https://www.youtube.com/watch?v=QsaHgcjPqH8)
 - ## Assignments:
-  - Solve assignments related to implementing conditional statements and loops.
+  - Solve assignments related to implementing conditional statements and loops. ([Example](https://github.com/usmanashrf/typescript-batch48/blob/main/Morning-section/class-4/index.ts))
 - ### [Class 4 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-4)
 
 # Class 5: Modules and Asynchronous Operations
@@ -71,7 +72,11 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
   - [Asynchronous & Synchronous](https://www.youtube.com/watch?v=i7Ws2AkZDKg)
   - [Aync Await Syntax](https://youtu.be/bLre6Uf4Op0?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR)
 - ### Assignments:
-  - Complete assignments related to modules and understanding asynchronous operations.
+  - **modular calculator:** Create a modular calculator program using TypeScript. The program should take user input through the Inquirer library and implement various arithmetic operations  (addition, subtraction, multiplication, division) as separate ES modules.
+    - [Video Tutorial](https://www.youtube.com/watch?v=ifGvJlg4L0I)
+    - [Solved Assignment](https://github.com/a-rehman-ujjan/PIAIC-Projects/tree/main/calculator)
+  - **Quiz application:** Create a quiz application using TypeScript and the Inquirer library. The program should take user input through Inquirer, implement a quiz with a variable number of questions, calculate the quiz score in a separate ES module, and display the final result along with correct and incorrect user-given answers.
+    - [Video Tutorial](https://www.youtube.com/watch?v=uPFKtQ8kIQk&t=776s)
 - ## [Class 5 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-5)
 
 # Class 6: Advanced TypeScript Concepts and Package Management
@@ -85,11 +90,14 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
   - [npm and Node.js Packages](https://youtu.be/nSFe1-kpfbQ?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR)
   - [Typescript Unions and Literals](https://www.youtube.com/watch?v=oZata4VXyRw)
   - [Type Aliases and Typescript Objects](https://www.youtube.com/watch?v=mCatIHCmems)
-  - [How to Publish NPM Package](https://www.youtube.com/watch?v=C56TrsGNgOk)
 - ## Assignments:
-  - Publish previous assignments on npmjs.com and verify their functionality.
+  - Publish your finished assignments from the previous class (Calculator & Quiz App) on [npmjs](https://www.npmjs.com/).
+    - [How to Publish NPM Package?](https://www.youtube.com/watch?v=C56TrsGNgOk)
+  - Verify the functionality of your package by installing it. Ensure that it runs properly in the command-line interface (CMD) without automatically opening the code file.
 - ### [Class 6 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-6)
 
 Remember, each class builds on the previous ones, deepening your understanding of TypeScript and web development concepts. For detailed information about each topic, refer to the provided [class slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent#slide=id.gcb9a0b074_1_0).
 
 Feel free to explore the topics further through online resources, video tutorials, and hands-on practice. Happy learning!
+
+
