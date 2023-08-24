@@ -76,9 +76,16 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 
 # Class 6: Advanced TypeScript Concepts and Package Management
 
-- **`TypeScript Unions and Type Literals:`** Combine types and define specific values.
-- **`TypeScript Objects:`** Create objects representing real-world entities.
-- **`NPM and Package Management:`** Understand NPM's role in managing dependencies.
+- **`TypeScript Unions:`** TypeScript unions allow you to define a variable or parameter that can hold values of multiple specified types. Unions are used to create more flexible and versatile data types, accommodating different data variations. A value assigned to a union type can be of any of the specified types.
+- **`Type Literals:`** Type literals allow you to define exact values that a variable can hold. This is useful when you want to restrict a variable to only accept specific values.
+- **`Type Aliases:`** Type aliases allow you to create custom names for types. This is helpful for making your code more readable and for simplifying complex type definitions, especially when unions are involved.
+- **`TypeScript Objects:`** In TypeScript, an object is a data structure that holds key-value pairs. Keys are strings, and values can be of any type. Objects help organize related data, and you can access values using keys.
+- **`NPM and Package Management:`** NPM (Node Package Manager) is a tool for managing and sharing JavaScript code. It helps you add, update, and remove packages (libraries) in your projects, making it easier to build and collaborate on software.
+- ### Online Recorded Sessions & videos:
+  - [npm and Node.js Packages](https://youtu.be/nSFe1-kpfbQ?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR)
+  - [Typescript Unions and Literals](https://www.youtube.com/watch?v=oZata4VXyRw)
+  - [Type Aliases and Typescript Objects](https://www.youtube.com/watch?v=mCatIHCmems)
+  - [How to Publish NPM Package](https://www.youtube.com/watch?v=C56TrsGNgOk)
 - ## Assignments:
   - Publish previous assignments on npmjs.com and verify their functionality.
 - ### [Class 6 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-6)
