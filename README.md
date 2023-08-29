@@ -96,6 +96,54 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
   - Verify the functionality of your package by installing it. Ensure that it runs properly in the command-line interface (CMD) without automatically opening the code file.
 - ### [Class 6 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-6)
 
+# Class 7: TypeScript Interfaces and Type Compatibility
+
+In 7th class, we explored TypeScript interfaces, delving into the concepts of structural and nominal typing. We highlighted the distinctions between these approaches and their impact on type comparisons.
+
+We then delved into the realm of "fresh" and "stale" objects in TypeScript.
+
+- **`Interfaces in TypeScript:`** [Interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html) allows you to define the structure of objects, specifying what properties and methods an object of a particular type should have. They serve as a contract that enforces a consistent shape for objects that adhere to that interface, preventing errors if required properties or methods are missing. Interfaces encourage reusable code and allow extension, letting you inherit properties and methods from other interfaces for creating new ones.
+- **`Type Compatibility:`** [Type compatibility](https://learntypescript.dev/04/l9-type-compatibility) in TypeScript refers to how the type system determines whether one type can be assigned to another without causing type errors. It involves checking the structure and properties of the types involved to ensure they match appropriately. TypeScript's type compatibility rules allow for more flexible code while maintaining type safety.
+
+TypeScript utilizes structural typing to determine type compatibility. When two types possess compatible structures, they're deemed compatible, regardless of separate definitions or distinct names. For object assignments, if the target type contains all properties of the source type and potentially more, the assignment is permitted. Surplus properties in the source type aren't problematic, as long as the required ones match.
+
+In function types, parameter compatibility is examined. If a function anticipates certain parameter types, a compatible function with identical parameter structures can be assigned, even with different parameter names. Types featuring optional properties or rest elements can coexist with types possessing equivalent properties, even if not explicitly labeled as optional or part of the rest. TypeScript frequently broadens literal types to their corresponding primitive types, influencing type compatibility.
+- **`Structural Typing:`**  [Structural typing](https://www.typescriptlang.org/play#example/structural-typing) is based on the structure or shape of types. Two types are considered compatible if their structures match, even if they were defined independently, regardless of their names or where they were defined. Type names are not significant; only the structure matters.
+- **`Nominal Typing:`** [Nominal typing](https://www.typescriptlang.org/play#example/nominal-typing) relies on the explicit names of types. Two types with the same structure but different names are not considered compatible, Even if two types have the same structure, they are not compatible if their names differ.
+
+In many languages, including TypeScript, structural typing is the default approach. TypeScript uses structural typing to compare types and determine compatibility. This approach promotes code reusability and flexibility, as types that share the same structure are considered compatible, regardless of their names. However, there are scenarios where nominal typing might be preferred, especially when strong type separation is needed to prevent accidental type compatibility.
+
+Understand the concept of "fresh" and "stale" objects in TypeScript, exploring how the language handles object immutability and mutability.
+
+- **`Fresh & Stale Objects:`** To determine whether an object is fresh or stale, we examine its composition. If the object contains explicit key-value pairs defined directly on its right side, it is considered fresh. On the other hand, if the object references a previously defined object by its name, rather than having its own key-value pairs, it is deemed stale.
+In TypeScript, a fresh object is one that is initialized with new key-value pairs on its right side, while a stale object is characterized by the act of assigning an object's name to another object, bypassing the use of distinct key-value pairs.
+- **`Assigning Objects to Different Interfaces:`** To practically apply our knowledge, we created two interfaces: "Motorbike" and "Car". "Motorbike" had properties like model, mileage, and speed, while "Car" had properties "model" and "mileage". We then instantiated two objects, "BMW" using the "Car" interface and "H2R" using the "Motorbike" interface, Interestingly, attempting to assign "H2R" to "BMW" didn't raise errors. However, attempting the opposite – "BMW" to "H2R" – did trigger an error. This highlighted the concept of type compatibility. check Code of the class for example.
+- ### [Class 7 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-7)
+- ### Online Recorded Sessions & videos:
+  - Adding Soon
+- ## Assignments:
+  - `Modeling Online Store Entities` You're building a TypeScript application for an online store. Define the following types and interfaces:
+    - Define an interface Product with properties like id, name, price, and category.
+    - Create a type Cart that represents an array of Product objects.
+    - Define an interface Customer with properties like id, name, and email.
+    - Create a type Order that represents an object containing a Customer and a Cart.
+    - Implement a function that calculates the total price of products in the cart.
+
+  - `Building a Blog System` Imagine you're developing a TypeScript application for a blogging platform. Create the following types and interfaces:
+    - Define an interface Author with properties like id, name, and bio.
+    - Create a type Comment that represents an object with author (of type Author), content, and timestamp.
+    - Define an interface Post with properties like id, title, content, author (of type Author), and an array of Comments.
+    - Implement a function that sorts posts based on their number of comments.
+
+  - `Social Media Platform` Develop a TypeScript application for a social media platform. Define the following types and interfaces:
+    - Define an interface Profile with properties like id, username, bio, and an array of Posts.
+    - Create a type Like that represents an object with user (of type User) and timestamp.
+    - Define an interface Comment with properties like id, user (of type User), content, and timestamp.
+    - Implement a function that finds the most liked post and the user who posted it
+
+
+
+
 Remember, each class builds on the previous ones, deepening your understanding of TypeScript and web development concepts. For detailed information about each topic, refer to the provided [class slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent#slide=id.gcb9a0b074_1_0).
 
 Feel free to explore the topics further through online resources, video tutorials, and hands-on practice. Happy learning!
