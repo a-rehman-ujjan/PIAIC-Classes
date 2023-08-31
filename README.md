@@ -120,7 +120,6 @@ In TypeScript, a fresh object is one that is initialized with new key-value pair
 - **`Assigning Objects to Different Interfaces:`** To practically apply our knowledge, we created two interfaces: "Motorbike" and "Car". "Motorbike" had properties like model, mileage, and speed, while "Car" had properties "model" and "mileage". We then instantiated two objects, "BMW" using the "Car" interface and "H2R" using the "Motorbike" interface, Interestingly, attempting to assign "H2R" to "BMW" didn't raise errors. However, attempting the opposite – "BMW" to "H2R" – did trigger an error. This highlighted the concept of type compatibility. check Code of the class for example.
 - ### [Class 7 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-7)
 - ### Online Recorded Sessions & videos:
-  - Adding Soon
   - [Structural Typing](https://youtu.be/-BT-yObYthw?si=4VLF0EZtosPY9Sr1&t=56)
   - [Type Compatibility](https://youtu.be/-BT-yObYthw?si=-ZxQCPJWMSkTc5ve&t=610)
   - [Fresh & Stale Object](https://youtu.be/-BT-yObYthw?si=W-9gccEygp-ssd0u&t=1406)
