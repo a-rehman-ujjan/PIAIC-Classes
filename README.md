@@ -121,6 +121,9 @@ In TypeScript, a fresh object is one that is initialized with new key-value pair
 - ### [Class 7 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-7)
 - ### Online Recorded Sessions & videos:
   - Adding Soon
+  - [Structural Typing](https://youtu.be/-BT-yObYthw?si=4VLF0EZtosPY9Sr1&t=56)
+  - [Type Compatibility](https://youtu.be/-BT-yObYthw?si=-ZxQCPJWMSkTc5ve&t=610)
+  - [Fresh & Stale Object](https://youtu.be/-BT-yObYthw?si=W-9gccEygp-ssd0u&t=1406)
 - ## Assignments:
   - `Modeling Online Store Entities` You're building a TypeScript application for an online store. Define the following types and interfaces:
     - Define an interface Product with properties like id, name, price, and category.
