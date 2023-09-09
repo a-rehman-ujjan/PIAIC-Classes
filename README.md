@@ -11,6 +11,9 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - **`Serverless Technology:`** [Serverless computing](https://www.cloudflare.com/learning/serverless/what-is-serverless/) allows developers to focus on writing code without managing server infrastructure. It automatically scales based on demand.
 - ## Assignments:
   - Install development tools and console log "Hello, World!" using TypeScript.
+- ### [Typescript Slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent?slide=id.gcb9a0b074_1_0)
+- ### [Getting Started Exercises](https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md)
+- ### [Advanced Typescript Penaverse GitHub](https://github.com/panaverse/learn-typescript)
 - ### [Class 1 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-1)
 
 # Class 2: TypeScript Fundamentals
@@ -144,6 +147,31 @@ In TypeScript, a fresh object is one that is initialized with new key-value pair
     - Implement a function that finds the most liked post and the user who posted it
 
 
+# Class 8: Advanced TypeScript Type Concepts
+
+In today's class, we delved into advanced TypeScript type concepts, expanding our understanding of TypeScript's type system. We explored the following topics:
+
+- **`Intersections in TypeScript:`** In TypeScript, [Intersections](https://www.typescripttutorial.net/typescript-tutorial/typescript-intersection-types/) are a way to combine multiple types into a single type definition. When you use intersections, you create a new type that contains all the properties and methods of the types you're intersecting.
+
+- **`Type-Casting:`** [Type Casting](https://www.typescripttutorial.net/typescript-tutorial/type-casting/) in TypeScript, is a mechanism that allows you to tell the TypeScript compiler to treat a value as if it has a specific type, even if the compiler's type inference doesn't align with that type.
+
+This can be necessary in situations where TypeScript cannot confidently determine the type of a value, but you, as the developer, know better. It's a way to override TypeScript's static type checking and inform the compiler about the intended type.
+
+We discussed type-casting techniques, including type assertions and the 'as' keyword. These techniques enable type manipulation and conversions, providing flexibility when working with TypeScript types.
+
+- **`Understanding "any," "unknown," and "never" Types:`**
+
+  - **`"any" Type:`** The "any" type is the most flexible type in TypeScript. It essentially disables type checking for a particular variable or value, allowing it to hold values of any type. It is used when you don't know or care about the type of a value, or when working with dynamic data, such as user inputs or data from external sources. While "any" provides flexibility, it sacrifices type safety. Using "any" should be minimized in favor of more specific types whenever possible, as it can lead to runtime errors.
+
+  - **`"unknown" Type:`** The "unknown" type is a safer alternative to "any." It represents values about which you have little or no information regarding their type. It is used when you need flexibility like "any" but want to ensure that you perform type checks or type assertions before performing operations on values of this type. "unknown" promotes type safety by forcing developers to make type assertions or perform checks before working with values of this type.
+
+  - **`"never" Type:`** The "never" type represents values that should never occur. It is often used to indicate that a function will never return (i.e., it always throws an error or enters an infinite loop). It is used primarily in situations where the program cannot proceed normally, such as when an error is thrown, or in exhaustive type checking. "never" helps catch logical errors at compile time and is valuable in scenarios where certain code paths should never be reached.
+
+These special types serve different purposes in TypeScript, and using them appropriately can improve type safety and maintainability in your code. It's generally advisable to use "any" sparingly and prefer "unknown" and "never" when you need more type safety and predictability in your TypeScript code.
+
+These advanced type concepts enrich our knowledge of TypeScript's type system, equipping us to write more robust, expressive, and type-safe code. Understanding intersections and the characteristics of "any," "unknown," and "never" types empowers us to handle complex type scenarios with confidence.
+
+- ### [Class 8 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-8)
 
 
 Remember, each class builds on the previous ones, deepening your understanding of TypeScript and web development concepts. For detailed information about each topic, refer to the provided [class slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent#slide=id.gcb9a0b074_1_0).
