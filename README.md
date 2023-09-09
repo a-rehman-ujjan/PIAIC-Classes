@@ -2,6 +2,16 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 
 📚 **Note:** This README is a work in progress. As more classes are covered, I will continue updating the file with detailed summaries, topics, and assignments. Stay tuned for comprehensive insights into TypeScript and web development concepts!
 
+# Repo Map
+- [**Class 1: Introduction to TypeScript, Web Concepts, Next.js and Serverless Technology**](https://github.com/a-rehman-ujjan/PIAIC-Classes/edit/main/README.md#class-1-introduction-to-typescript-and-web-concepts)
+- [**Class 2: TypeScript Fundamentals, Variables, Primitive Data Types, Template Literals and Operators In Typescript**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-2-typescript-fundamentals)
+- [**Class 3: Functions, Arrays, and User Input**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-3-functions-arrays-and-user-input)
+- [**Class 4: Return Type Annotations, Arrow Function, Conditional Statements, and Loops**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-4-conditional-statements-and-loops)
+- [**Class 5: CommonJS Modules vs. ECMA Modules, Asynchronous vs. Synchronous Operations, Aync Await Syntax, Inquirer and Chalk Librarie**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-5-modules-and-asynchronous-operations)
+- [**Class 6: Typescript Unions, Aliases, Type literals, TypeScript Objects, and NPM**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-6-advanced-typescript-concepts-and-package-management)
+- [**Class 7: Interfaces, Type Compatibility, Structural & Nominal Typing, and Fresh & Stale Objects**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-7-typescript-interfaces-and-type-compatibility)
+- [**Class 8: Intersections in TypeScript, Type-Casting, "any," "unknown," and "never" Types**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-8-advanced-typescript-type-concepts)
+- [**Class 9: Enums, Arrays, Functions, and Async in TypeScript**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-9-enums-arrays-functions-and-async-in-typescript)
 
 # Class 1: Introduction to TypeScript and Web Concepts
 
@@ -172,6 +182,40 @@ These special types serve different purposes in TypeScript, and using them appro
 These advanced type concepts enrich our knowledge of TypeScript's type system, equipping us to write more robust, expressive, and type-safe code. Understanding intersections and the characteristics of "any," "unknown," and "never" types empowers us to handle complex type scenarios with confidence.
 
 - ### [Class 8 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-8)
+
+# Class 9: Enums, Arrays, Functions, and Async in TypeScript
+
+Here's an overview of the Topics we covered:
+
+- **`Enums in TypeScript:`** In TypeScript, an [enum](https://www.typescriptlang.org/docs/handbook/enums.html) (short for "enumeration") is a way to define a set of named constants, Enums can be useful in scenarios where you have a fixed set of options or when you want to improve code readability by using descriptive names instead of hardcoding numeric or string values. enum is like a list of predefined choices or options. It helps you use meaningful names instead of numbers or words to represent these choices, Enums make your code more readable and less error-prone when working with fixed sets of values.
+
+  - **`Enums with var (Runtime-Generated Enum):`** When you declare an enum using var, TypeScript generates runtime code for the enum, This means that the enum is converted into actual JavaScript objects during the compilation process, and it exists in the runtime JavaScript code, It can be useful if you need the enum values to be accessible at runtime, for example, if you plan to use them in conditional logic that runs in the browser. Use `var` enums when you need to access enum values at runtime, for example, in scenarios involving user interactions or dynamic logic in the browser.
+  - **`Enums with Const (Compile-Time Enum):`** When you declare an enum using const, TypeScript does not generate any runtime code for the enum, This enum is purely a compile-time construct, and its values are removed during the compilation process. It doesn't exist in the runtime JavaScript code, It is useful when you want to use enums for type checking and code clarity but don't need the enum values to be present in the generated JavaScript. Use `const` enums when you want type checking and code readability but don't want the enum values in the generated JavaScript, which can help reduce the size of the compiled code.
+
+- **`Arrays:`** An [Array](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays) is a data structure used to store a collection of values, where each value can be of the same or different types. Arrays are similar to arrays in JavaScript but come with the added benefit of type checking, allowing you to specify the types of elements that the array can contain.
+-  **`Array Methods`**  Arrays come with a variety of built-in methods that make it easier to manipulate and work with array data. These methods are powerful tools for performing common operations on arrays. Here are some commonly used array methods in TypeScript:
+    - **push():** Adds one or more elements to the end of an array.
+    - **pop():** Removes the last element from an array and returns it.
+    - **shift():** Removes the first element from an array and returns it.
+    - **unshift():** Adds one or more elements to the beginning of an array.
+    - **map():** Creates a new array by applying a function to each element of an existing array.
+    - **filter():** Creates a new array containing all elements that pass a certain condition.
+    - **reduce():** Applies a function to accumulate a single result from all elements of an array.
+    - **forEach():** Iterates over each element in the array and executes a provided function.
+
+These are just some of the most commonly used array methods in TypeScript. There are many [more](https://blog.canopas.com/typescript-array-methods-and-their-usages-daa8d498b4fd), each serving different purposes and providing powerful tools for working with arrays in your programs.
+
+
+- **`Functions:`** We studied [functions](https://www.typescriptlang.org/docs/handbook/2/functions.html) as reusable blocks of code designed to perform specific tasks. Functions play a vital role in structuring code and enhancing reusability.
+- **`Function Parameter Types:`**
+    - **Required Parameters:** Required Parameters or Default Parameters are the standard parameters that you define when declaring a function, Required parameters must be provided when calling the function, and their absence results in a compile-time error.
+    - **Optional Parameters:** Optional parameters are denoted by appending a `?` to the parameter name in the function declaration, They can be omitted when calling the function, and TypeScript doesn't enforce providing a value for them, The optional parameters always come at the end of the parameter list.
+    - **Rest Parameters:** Rest parameters allow you to pass a variable number of arguments to a function as an array, They are denoted by three dots `...` followed by the parameter name, and there can be only one rest parameter in a function, Rest parameters collect all remaining arguments into an array, making it convenient to work with a variable number of inputs.
+
+
+- **`Async in TypeScript:`** Async functions in JavaScript and TypeScript allow you to write code that appears to run in order, even when you're doing things that take time, like fetching data from the internet. You create an async function by adding the word `async` before `function`, An async function always returns a Promise. This Promise will either resolve to the value that the function explicitly returns or reject with an error.
+
+These foundational topics are essential for a comprehensive understanding of TypeScript. They enable us to work effectively with data structures like enums and arrays, create flexible and reusable functions, and simplify asynchronous operations using `async` and `await`. Understanding these concepts is key to becoming proficient in TypeScript development.
 
 
 Remember, each class builds on the previous ones, deepening your understanding of TypeScript and web development concepts. For detailed information about each topic, refer to the provided [class slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent#slide=id.gcb9a0b074_1_0).
