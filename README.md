@@ -14,6 +14,12 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - [**Class 9: Enums, Arrays, Functions, and Async in TypeScript**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-9-enums-arrays-functions-and-async-in-typescript)
 - [**Class 10: Asynchronous Programming in TypeScript, callback functions, and Promises**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-10-asynchronous-programming-in-typeScript-callback-functions-and-promises)
 
+# Getting Started Resources ⚙️
+- ### [Typescript Slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent?slide=id.gcb9a0b074_1_0)
+- ### [Getting Started Exercises](https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md)
+- ### [Advanced Typescript Penaverse GitHub](https://github.com/panaverse/learn-typescript)
+- ### [Node Projects](https://github.com/panaverse/learn-typescript/tree/master/NODE_PROJECTS)
+
 # Class 1: Introduction to TypeScript and Web Concepts
 
 - **`TypeScript Introduction:`** [TypeScript](https://www.typescriptlang.org/) is a programming language that builds upon JavaScript by adding static type-checking and other features. It enhances code quality and helps catch errors early in development.
@@ -22,9 +28,6 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - **`Serverless Technology:`** [Serverless computing](https://www.cloudflare.com/learning/serverless/what-is-serverless/) allows developers to focus on writing code without managing server infrastructure. It automatically scales based on demand.
 - ## Assignments 📚:
   - Install development tools and console log "Hello, World!" using TypeScript.
-- ### [Typescript Slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent?slide=id.gcb9a0b074_1_0)
-- ### [Getting Started Exercises](https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md)
-- ### [Advanced Typescript Penaverse GitHub](https://github.com/panaverse/learn-typescript)
 - ### [Class 1 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Morning-section/class-1)
 
 # Class 2: TypeScript Fundamentals
@@ -269,7 +272,7 @@ Promises provide a more organized way to work with asynchronous code, and .then(
   - [Promises](https://youtu.be/Dadlf6YsTHA?si=tyqSRsK6_AnueZNJ&t=33)
   - [.then & .catch](https://youtu.be/Fsv4IEH-4Lw?si=NxxednCOaLL_048K&t=86)
 - ## Assignments 📚:
-  - Convert All Callback functions written in Class Code into Promises.
+  - Convert All Callback functions written in Class Code into Promises. [**Solved Example**](https://github.com/Azeem000011111111/New-folder--9-/blob/main/index.ts)
 
 Remember, each class builds on the previous ones, deepening your understanding of TypeScript and web development concepts. For detailed information about each topic, refer to the provided [class slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent#slide=id.gcb9a0b074_1_0).
 
