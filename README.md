@@ -13,11 +13,12 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - [**Class 8: Intersections in TypeScript, Type-Casting, "any," "unknown," and "never" Types**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-8-advanced-typescript-type-concepts)
 - [**Class 9: Enums, Arrays, Functions, and Async in TypeScript**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-9-enums-arrays-functions-and-async-in-typescript)
 - [**Class 10: Asynchronous Programming in TypeScript, callback functions, and Promises**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-10-asynchronous-programming-in-typeScript-callback-functions-and-promises)
+- [**Class 11: Function Overloading, Tuples, Class Structural Typing, Inheritance, Constructors, and Access Modifiers**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-11-function-overloading-tuples-class-structural-typing-inheritance-constructors-and-access-modifiers-in-typeScript)
 
 # Getting Started Resources ⚙️
 - ### [Typescript Slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent?slide=id.gcb9a0b074_1_0)
 - ### [Getting Started Exercises](https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md)
-- ### [Advanced Typescript Penaverse GitHub](https://github.com/panaverse/learn-typescript)
+- ### [Advanced Typescript Step-By-Step](https://github.com/panaverse/learn-typescript)
 - ### [Node Projects](https://github.com/panaverse/learn-typescript/tree/master/NODE_PROJECTS)
 
 # Class 1: Introduction to TypeScript and Web Concepts
@@ -273,6 +274,36 @@ Promises provide a more organized way to work with asynchronous code, and .then(
   - [.then & .catch](https://youtu.be/Fsv4IEH-4Lw?si=NxxednCOaLL_048K&t=86)
 - ## Assignments 📚:
   - Convert All Callback functions written in Class Code into Promises. [**Solved Example**](https://github.com/Azeem000011111111/New-folder--9-/blob/main/index.ts)
+
+# Class 11: Function Overloading, Tuples, Class Structural Typing, Inheritance, Constructors, and Access Modifiers in TypeScript
+
+In the 11th class, we delved into several essential concepts for building robust object-oriented programs in TypeScript. Here's a summary of what we covered:
+
+- **`Function Overloading:`** [function overloading](https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads) is a feature that allows you to define multiple function signatures for a single function name. TypeScript uses the number and types of function parameters to determine which function implementation to call. It's useful when you want to provide different ways to call a function based on the provided arguments.
+  - **Function Signatures:** A Function Signature refers to the declaration or definition of a function, including its name, parameter types, and return type. It specifies the structure and types of the function's arguments and its return value. Function signatures are used for type checking and to define how a function can be called and what it should return. A function signature typically includes **Function Name**, **Parameter Types**, And **Return Type** like: `function name(a: number, b: number): number {}`
+
+- **`Tuples:`** [tuples](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#tuple) is a type in TypeScript that enables you to create ordered arrays with a fixed number of elements, each of which may have a different data type. Tuples are similar to arrays but provide specific type checking for each element at a specified position. For example, you can create a tuple to represent a point in 2D space with coordinates (x, y).
+
+- **`Classes:`** classes are a fundamental feature that allows you to define blueprints for objects. They provide a way to create object-oriented programming constructs by encapsulating data (properties) and behavior (methods) into a single unit. Classes serve as templates for creating instances (objects) that share the same structure and behavior.
+
+- **`Class Structural Typing:`** TypeScript uses [structural typing](https://www.typescriptlang.org/docs/handbook/2/classes.html#structural-typing) to determine if two classes are compatible based on their structure (the shape of their properties and methods) rather than explicit inheritance. This means that if two classes have the same structure, they are considered compatible, even if they don't share a common parent class or interface.
+
+- **`Inheritance:`** [Inheritance](https://www.typescriptlang.org/docs/handbook/2/classes.html#inheritance), Classes can inherit properties and methods from other classes using the `extends` keyword. Inheritance allows for creating a hierarchy of classes, where a subclass inherits the characteristics of its superclass.
+
+- **`Constructors:`** [Constructors](https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors) are special methods within a class that are automatically called when an instance (object) of the class is created using the `new` keyword. Constructors are used to initialize the object's properties, set up initial values, and perform any other necessary setup operations. Inside the constructor, you can assign values to the object's properties based on the provided arguments or set default values. Constructors are implicitly invoked when you create an object from the class using the `new` keyword. The constructor is called before the object is returned. A class can have only one constructor. Overloading constructors (having multiple constructors with different parameter lists) is not supported in TypeScript. However, you can use optional parameters or provide default values to achieve similar functionality.
+
+- **`Access Modifiers:`** [Access modifiers](https://www.typescriptlang.org/docs/handbook/2/classes.html#public-private-and-protected-modifiers), which control the visibility and accessibility of class members (properties and methods). TypeScript provides three access modifiers: `public`, `private`, and `protected`. `public` members are accessible from outside the class, `private` members are only accessible within the class, and `protected` members are accessible within the class and its subclasses.
+
+These fundamental concepts are crucial for creating well-structured and maintainable TypeScript code. Understanding function overloading, tuples, class structural typing, inheritance, constructors, and access modifiers empowers you to build object-oriented programs with TypeScript effectively.
+
+- ### [Class 11 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Evening-section/Class-11)
+- ### Online Recorded Sessions & videos 📺:
+  - [Function Overloading](https://youtu.be/OdTZYAJ37ng?si=Sb_hvfmoRPXV0JCP&t=240)
+  - [Tuples](https://youtu.be/OvexMCKAXks?si=fnetL1GRKKAAIXjg&t=37)
+  - [Classs and Objects](https://youtu.be/7RpdfkSyJfU?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR)
+  - [Constructor](https://youtu.be/0E2akQ5E-5Y?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR)
+  - [Access Modifiers - Public And Private](https://youtu.be/0m7hMRZdC2s?t=33), [Protected vs Readonly](https://youtu.be/Or9-VKzMZiQ?t=27)
+  - [Inheritance & extends Keyword](https://youtu.be/9loYq8W8rsg?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR)
 
 Remember, each class builds on the previous ones, deepening your understanding of TypeScript and web development concepts. For detailed information about each topic, refer to the provided [class slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent#slide=id.gcb9a0b074_1_0).
 
