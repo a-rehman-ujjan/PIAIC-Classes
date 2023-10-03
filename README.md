@@ -310,38 +310,51 @@ These fundamental concepts are crucial for creating well-structured and maintain
 # Class 12: Abstraction, Next.js, Server Side Rendering and Web 3, and Library vs. Framework
 
 
-- **`Abstraction in TypeScript:`** Abstraction is a fundamental concept in programming that focuses on hiding complex implementation details while exposing essential functionalities. It allows developers to work with high-level concepts rather than low-level details.
+- **`Abstraction in TypeScript:`** [Abstraction](https://www.javaguides.net/2019/09/typescript-abstraction-example.html) in typescript focuses on hiding complex implementation details while exposing essential features or functionalities of an object or a system. It allows developers to work with high-level concepts and hide the low-level implementation details. Abstraction helps in managing complexity and building more maintainable and understandable code. Abstraction is achieved through mechanisms like classes, interfaces, and abstract classes. You define an abstract interface that outlines the essential methods and properties, and then you implement this interface in concrete classes with specific implementations
 
-- **`Abstract Class and Its Implementation:`** Abstract classes are classes that cannot be instantiated on their own but can be used as blueprints for other classes. They may contain abstract methods that must be implemented by their child classes. Useful for creating a common structure for related classes.
-
+- **`Abstract Class and Its Implementation:`** Abstract classes in TypeScript serve as blueprints for other classes. They allow you to define a common structure and set of methods that should be implemented by their child classes. Abstract classes cannot be instantiated on their own; they exist to be extended by other classes, and those child classes must provide concrete implementations for the abstract methods. Useful for creating a common structure for related classes. Abstract classes can also include concrete (non-abstract) methods with fully implemented code. These methods can be inherited and used by the child classes as is.
 ## Introduction to Next.js and React:
 
-- **`What is React and Next.js:`** React is a popular JavaScript library for building user interfaces. Next.js is a framework for building React applications that adds server-side rendering and other features.
+- **`What is React`** [React](https://react.dev/learn) is an open-source JavaScript library for building user interfaces. It was developed and is maintained by Facebook. React follows a component-based architecture. You create reusable UI components, which can be composed to build complex user interfaces. Each component encapsulates its own logic, structure, and appearance. React has a large and active community.
 
-- **`Page Load Speed and SEO:`** Discussing the importance of fast page load times for search engine optimization (SEO).
+- **`What is Next.js:`** [Next.js](https://nextjs.org/learn/foundations/about-nextjs?utm_source=next-site&utm_medium=homepage-cta&utm_campaign=home) is a framework for building web applications with React. It provides a set of tools and conventions to simplify server-side rendering, routing, and other common tasks. One of the key features of Next.js is its support for `server-side rendering.` With SSR, initial page rendering happens on the server, which can improve page load times, enhance search engine optimization (SEO), and provide a better user experience. Next.js automatically splits your JavaScript code into smaller chunks, loading only the necessary code for the current page. This improves performance by reducing the initial bundle size. Next.js offers a great developer experience with features like hot module reloading, automatic code splitting, and support for CSS-in-JS libraries.
 
-- **`What is Server Side Rendering:`** SSR is a rendering technique where web pages are generated on the server and sent as fully rendered HTML to the client. This approach can improve initial page load speed and SEO.
+- **`Routing:`** Next.js includes a built-in routing system, simplifying the process of creating client-side navigation. You can define routes and link to different pages in your application. Next.js provides a convenient way to create serverless API endpoints within your application, making it easy to handle server-side logic without managing a separate backend.
 
-- **`What is Client Side Rendering:`** CSR is a rendering technique where web pages are mostly empty HTML templates sent to the client, and JavaScript on the client's side fills in the content. It can provide a dynamic user experience but may lead to slower initial load times.
+- **`What is Server Side Rendering(SSR):`** In SSR, the web page is generated and rendered on the server before being sent to the client's browser. SSR typically results in faster initial page load times because the server sends a fully rendered HTML page to the client. The client can display content as soon as it receives the HTML. Search engines can easily crawl and index SSR pages because they receive complete HTML content from the server, SSR can be beneficial for users on slower devices or with limited processing power, as the server does most of the heavy lifting. Setting up SSR can be more complex than CSR, as it requires server-side rendering logic and may involve additional server-side libraries and configurations.
 
-- **`Difference Between SSR and CSR:`** Explaining the distinctions between these two rendering approaches.
+- **`What is Client Side Rendering(CSR):`** In CSR, the initial HTML page is minimal and often contains placeholders for content. JavaScript code running in the client's browser fetches data from a server and dynamically renders the page. Once the initial page is loaded, subsequent navigation within the application can be very fast because only data needs to be fetched and the page is re-rendered in the client. CSR is well-suited for single-page applications (SPAs) and complex, interactive web applications where content changes frequently without full page reloads. The initial page load can be slower as it requires downloading JavaScript files and making additional requests to fetch data and render content. Users may see placeholders until content loads. Search engines may have difficulty indexing CSR pages because the initial HTML often lacks content. While search engines have improved in handling CSR, SSR is still generally better for SEO. Many modern web applications use a combination of both SSR and CSR. For example, they might use SSR for the initial page load to ensure fast loading times and SEO benefits, then switch to CSR for subsequent navigation to provide a more interactive experience. The choice between SSR and CSR depends on your specific project requirements, including performance goals, SEO considerations, and the complexity of your application.
 
-- **`Challenges with Client Side Rendering in the Future (Web 3):`**
+- **`Challenges with CSR in the Future (Web 3):`** Web 3, often associated with blockchain and decentralized applications, introduces new complexities.
+  - These technologies can result in heavier web applications due to the need to interact with decentralized networks, manage cryptographic operations, and handle smart contracts.
 
-**Web 3 and Heavy Websites:** Discussing the potential impact of Web 3 technologies on website complexity.
+  - CSR may struggle to meet the performance demands of Web 3 applications, especially when dealing with real-time data and complex decentralized computations. Users may experience slower load times and responsiveness.
 
-- **`Planet Scale Interlinked Websites:`** Describing the concept of interconnected websites on a global scale.
+  - Web 3 applications often rely on decentralized storage solutions like IPFS (InterPlanetary File System). Fetching data from these systems on the client side can introduce latency and challenges in handling large data sets.
 
-- **`3D Models and Rendering:`** Explaining how 3D models can pose challenges for client-side rendering due to their resource-intensive nature.
+  - To address these challenges, some applications opt for server-side rendering of 3D models. The server can pre-render the models and serve them as images or videos, reducing the client-side burden.
+
+- **`Planet Scale Interlinked Websites:`** As the web evolves, we're seeing the emergence of planet-scale interconnected websites that span across diverse domains, platforms, and ecosystems. These interconnected sites share data and services seamlessly.
+  - Managing data exchange and interoperability across these interconnected sites can be highly complex. CSR, which traditionally relies on fetching data from specific APIs, may struggle to adapt to this interconnected landscape.
+
+  - Interlinked websites raise concerns about data privacy and security, as data might be shared across various platforms. Handling user data securely becomes paramount, and CSR might face challenges in ensuring secure data transmission.
 
 - **`Library vs. Framework:`**
+  - `library` is a collection of pre-written code modules or functions that developers can use in their applications. Libraries are designed to perform specific tasks or provide specific functionalities, and developers can call these functions as needed within their code. developers retain full control over the flow of their application. They can choose which functions from the library to use and when to use them. Libraries do not impose a specific structure or design pattern on the application. Libraries are often more flexible because they can be used in a variety of projects, and developers can integrate them into their codebase as needed. There's typically no strict reliance on the library's structure or conventions.
 
-  - **Understanding the Difference:** Clarifying the distinctions between libraries and frameworks. Libraries provide reusable functions, while frameworks dictate the application structure and flow.
+  - `Framework` is a comprehensive, pre-built software structure that dictates the overall structure and flow of an application. Frameworks provide a skeletal architecture where developers plug in their code to build specific features. They often enforce specific design patterns and conventions. developers have less control over the application's flow because the framework defines the application's architecture. Developers follow the framework's guidelines and conventions, which can lead to a consistent and structured application. Frameworks are often opinionated, meaning they prescribe a particular way of doing things. This can lead to faster development because many decisions are already made for the developer. However, it may also limit flexibility.
 
-  - **Choosing the Right Tool:** Highlighting the importance of selecting the appropriate tool (library or framework) for a particular project based on requirements.
+  - `Control vs. Convention:` Libraries provide more control and flexibility because developers decide when and how to use them. Frameworks follow specific conventions and impose a structured approach.
+
+  - `Use Case:` Libraries are often used to add specific functionality to an existing codebase. Frameworks are used to build entire applications with a predefined structure.
+
+  - `Learning Curve:` Libraries typically have a lower learning curve because developers can pick and choose which parts to use. Frameworks may have a steeper learning curve due to their comprehensive structure and conventions.
+
+  - `Development Speed:` Frameworks can speed up development by providing a structured foundation. Libraries are used to enhance specific parts of an application, potentially leading to a more customized but slower development process.
 
 In this class, you explored a range of topics, from abstraction and abstract classes in TypeScript to the concepts of Next.js, server-side rendering, and the potential challenges posed by Web 3 technologies. Additionally, you learned about the differences between libraries and frameworks in the context of web development.
 
+- ### [Class 12 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Evening-section/Class-12)
 
 Remember, each class builds on the previous ones, deepening your understanding of TypeScript and web development concepts. For detailed information about each topic, refer to the provided [class slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent#slide=id.gcb9a0b074_1_0).
 
