@@ -14,6 +14,8 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - [**Class 9: Enums, Arrays, Functions, and Async in TypeScript**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-9-enums-arrays-functions-and-async-in-typescript)
 - [**Class 10: Asynchronous Programming in TypeScript, callback functions, and Promises**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-10-asynchronous-programming-in-typeScript-callback-functions-and-promises)
 - [**Class 11: Function Overloading, Tuples, Class Structural Typing, Inheritance, Constructors, and Access Modifiers**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-11-function-overloading-tuples-class-structural-typing-inheritance-constructors-and-access-modifiers-in-typeScript)
+## Started NEXT JS.
+- [**Class 12: Abstraction, Next.js, Server Side Rendering and Web 3, and Library vs. Framework**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-12-Abstraction-Next.js-Server-Side-Rendering-and-Web-3-and-Library-vs-Framework)
 
 # Getting Started Resources ⚙️
 - ### [Typescript Slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent?slide=id.gcb9a0b074_1_0)
@@ -304,6 +306,42 @@ These fundamental concepts are crucial for creating well-structured and maintain
   - [Constructor](https://youtu.be/0E2akQ5E-5Y?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR)
   - [Access Modifiers - Public And Private](https://youtu.be/0m7hMRZdC2s?t=33), [Protected vs Readonly](https://youtu.be/Or9-VKzMZiQ?t=27)
   - [Inheritance & extends Keyword](https://youtu.be/9loYq8W8rsg?list=PLu0W_9lII9ahR1blWXxgSlL4y9iQBnLpR)
+
+# Class 12: Abstraction, Next.js, Server Side Rendering and Web 3, and Library vs. Framework
+
+
+- **`Abstraction in TypeScript:`** Abstraction is a fundamental concept in programming that focuses on hiding complex implementation details while exposing essential functionalities. It allows developers to work with high-level concepts rather than low-level details.
+
+- **`Abstract Class and Its Implementation:`** Abstract classes are classes that cannot be instantiated on their own but can be used as blueprints for other classes. They may contain abstract methods that must be implemented by their child classes. Useful for creating a common structure for related classes.
+
+## Introduction to Next.js and React:
+
+- **`What is React and Next.js:`** React is a popular JavaScript library for building user interfaces. Next.js is a framework for building React applications that adds server-side rendering and other features.
+
+- **`Page Load Speed and SEO:`** Discussing the importance of fast page load times for search engine optimization (SEO).
+
+- **`What is Server Side Rendering:`** SSR is a rendering technique where web pages are generated on the server and sent as fully rendered HTML to the client. This approach can improve initial page load speed and SEO.
+
+- **`What is Client Side Rendering:`** CSR is a rendering technique where web pages are mostly empty HTML templates sent to the client, and JavaScript on the client's side fills in the content. It can provide a dynamic user experience but may lead to slower initial load times.
+
+- **`Difference Between SSR and CSR:`** Explaining the distinctions between these two rendering approaches.
+
+- **`Challenges with Client Side Rendering in the Future (Web 3):`**
+
+**Web 3 and Heavy Websites:** Discussing the potential impact of Web 3 technologies on website complexity.
+
+- **`Planet Scale Interlinked Websites:`** Describing the concept of interconnected websites on a global scale.
+
+- **`3D Models and Rendering:`** Explaining how 3D models can pose challenges for client-side rendering due to their resource-intensive nature.
+
+- **`Library vs. Framework:`**
+
+  - **Understanding the Difference:** Clarifying the distinctions between libraries and frameworks. Libraries provide reusable functions, while frameworks dictate the application structure and flow.
+
+  - **Choosing the Right Tool:** Highlighting the importance of selecting the appropriate tool (library or framework) for a particular project based on requirements.
+
+In this class, you explored a range of topics, from abstraction and abstract classes in TypeScript to the concepts of Next.js, server-side rendering, and the potential challenges posed by Web 3 technologies. Additionally, you learned about the differences between libraries and frameworks in the context of web development.
+
 
 Remember, each class builds on the previous ones, deepening your understanding of TypeScript and web development concepts. For detailed information about each topic, refer to the provided [class slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent#slide=id.gcb9a0b074_1_0).
 
