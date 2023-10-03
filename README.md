@@ -14,8 +14,8 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - [**Class 9: Enums, Arrays, Functions, and Async in TypeScript**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-9-enums-arrays-functions-and-async-in-typescript)
 - [**Class 10: Asynchronous Programming in TypeScript, callback functions, and Promises**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-10-asynchronous-programming-in-typeScript-callback-functions-and-promises)
 - [**Class 11: Function Overloading, Tuples, Class Structural Typing, Inheritance, Constructors, and Access Modifiers**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-11-function-overloading-tuples-class-structural-typing-inheritance-constructors-and-access-modifiers-in-typeScript)
-## Started NEXT JS.
-- [**Class 12: Abstraction, Next.js, Server Side Rendering and Web 3, and Library vs. Framework**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-12-Abstraction-Next.js-Server-Side-Rendering-and-Web-3-and-Library-vs-Framework)
+### Started NEXT JS.
+- [**Class 12: Abstraction, Next.js, Server Side Rendering and Web 3, and Library vs. Framework**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-12-abstraction-nextjs-server-side-rendering-and-web-3-and-library-vs-framework)
 
 # Getting Started Resources ⚙️
 - ### [Typescript Slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent?slide=id.gcb9a0b074_1_0)
