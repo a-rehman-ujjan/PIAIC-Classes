@@ -3,7 +3,7 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 📚 **Note:** This README is a work in progress. As more classes are covered, I will continue updating the file with detailed summaries, topics, and assignments. Stay tuned for comprehensive insights into TypeScript and web development concepts!
 
 # Repo Map 🗺️
-- [**Class 1: Introduction to TypeScript, Web Concepts, Next.js and Serverless Technology**](https://github.com/a-rehman-ujjan/PIAIC-Classes/edit/main/README.md#class-1-introduction-to-typescript-and-web-concepts)
+- [**Class 1: Introduction to TypeScript, Web Concepts, Next.js and Serverless Technology**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-1-introduction-to-typescript-and-web-concepts)
 - [**Class 2: TypeScript Fundamentals, Variables, Primitive Data Types, Template Literals and Operators In Typescript**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-2-typescript-fundamentals)
 - [**Class 3: Functions, Arrays, and User Input**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-3-functions-arrays-and-user-input)
 - [**Class 4: Return Type Annotations, Arrow Function, Conditional Statements, and Loops**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-4-conditional-statements-and-loops)
