@@ -14,7 +14,8 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - [**Class 9: Enums, Arrays, Functions, and Async in TypeScript**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-9-enums-arrays-functions-and-async-in-typescript)
 - [**Class 10: Asynchronous Programming in TypeScript, callback functions, and Promises**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-10-asynchronous-programming-in-typeScript-callback-functions-and-promises)
 - [**Class 11: Function Overloading, Tuples, Class Structural Typing, Inheritance, Constructors, and Access Modifiers**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-11-function-overloading-tuples-class-structural-typing-inheritance-constructors-and-access-modifiers-in-typeScript)
-### Started NEXT JS.
+## Started NEXT JS.
+- ### [Learn Nextjs Step-by-Step](https://github.com/panaverse/learn-nextjs)
 - [**Class 12: Abstraction, Next.js, Server Side Rendering and Web 3, and Library vs. Framework**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-12-abstraction-nextjs-server-side-rendering-and-web-3-and-library-vs-framework)
 
 # Getting Started Resources ⚙️
@@ -356,7 +357,44 @@ In this class, you explored a range of topics, from abstraction and abstract cla
 
 - ### [Class 12 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Evening-section/Class-12)
 
-Remember, each class builds on the previous ones, deepening your understanding of TypeScript and web development concepts. For detailed information about each topic, refer to the provided [class slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent#slide=id.gcb9a0b074_1_0).
+# Class 13: NEXT.js Setup, .tsx Files, Routing, Linking, Grouping, and Layout Usage
+
+- [**`Penaverse Nextjs Step-by-Step`**](https://github.com/panaverse/learn-nextjs)
+
+- **`NEXT.js Setup`**:
+  - Ensure you have [Node.js](https://nodejs.org/) and npm (Node Package Manager) installed on your computer.
+
+  - Create a next js application run `npx create-next-app@latest` in your terminal or command prompt. this will ask you the name of your application.
+
+  - Make sure after creating a new project you Change your working directory to the newly created project folder, you can type `cd (folder_name)` to do that.
+
+  - To run your NEXT.js application, use the following command `npm run dev` This command typically runs your application on **http://localhost:3000/**
+
+  - To make changes spot `page.tsx` inside src/app in your folder. make changes in that file, you can modify layout.tsx to make changes in the appearance of your application using [Tailwindcss](https://tailwindcss.com/).
+
+- **`.tsx File Extension:`** The **.tsx** file extension is used for TypeScript files that contain React components. this extension indicates that the file is written in TypeScript (a statically typed superset of JavaScript) and contains JSX (JavaScript XML) syntax. JSX is a syntax extension for JavaScript often used with React to describe the structure and appearance of user interfaces.
+
+  - **JSX:** JSX is a syntax extension for JavaScript that allows developers to write HTML-like code within JavaScript or TypeScript files. It's commonly used with React to define the structure of UI components.
+
+  - **React Components:** In the context of React, `.tsx` files typically contain React component definitions. These components can be functional components or class components, and they describe how a part of the user interface should be rendered based on the component's props and state.
+
+  - By using TypeScript and the .tsx extension, developers can leverage static type checking while building React applications, which helps catch errors early in the development process and improves code quality and maintainability.
+
+- **`Routing in NEXT.js:`** [Routing in NEXT.js](https://nextjs.org/docs/pages/building-your-application/routing) refers to the process of defining how URLs (Uniform Resource Locators) map to different pages or components in your NEXT.js application. Routing allows you to create a navigational structure for your web application, enabling users to access different views or sections of your site by clicking on links or typing URLs in their browsers. Routing is a fundamental aspect of building web applications, and NEXT.js simplifies it by providing a page-based routing system and convenient tools like the Link component for client-side navigation.
+
+- **`Linking in NEXT.js:`** [Linking in NEXT.js](https://nextjs.org/learn/basics/navigate-between-pages/link-component) refers to the process of creating navigational links within your NEXT.js application using the Link component. The Link component is a built-in feature of NEXT.js that simplifies client-side navigation between different pages or views of your application without requiring full page reloads. It is part of the framework's routing system and plays a crucial role in creating a smooth and responsive user experience. Using Link components for navigation is a common practice in NEXT.js applications, as it simplifies routing and ensures that navigation is fast and efficient, contributing to a more smooth user experience.
+
+- **`Grouping in NEXT.js:`** Grouping in NEXT.js or [Route Groups](https://nextjs.org/docs/app/building-your-application/routing/route-groups) refers to the process of organizing and grouping related routes or pages within your NEXT.js application. This feature allows you to create a structured and modular project layout, making it easier to manage your application as it grows in complexity. Grouping is achieved using a special feature called "File System Routing" provided by NEXT.js. Grouping in NEXT.js provides a structured and organized approach to building web applications, making it easier to manage routes and related components as your project grows. It encourages modularization and code reusability, enhancing the maintainability of your application.
+
+- **`layout.tsx and Global Usage:`** In NEXT.js, a [layout.tsx](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts) file is a React component that defines the common structure and layout for multiple pages within your application. It serves as a template that encapsulates the shared design, header, footer, or other elements that should appear consistently across various pages. The primary purpose of layout.tsx is to provide a consistent and unified user interface across different parts of your application. By using a layout component, you can reuse the same layout structure across multiple pages without duplicating code. This promotes code reusability and reduces maintenance efforts.
+
+  - **Global Usage:** Global usage of the layout.tsx component involves applying it to multiple pages to ensure a consistent user experience throughout your application. When you use the `layout.tsx` component globally, all pages wrapped with this layout will share the same UI elements, creating a cohesive user experience. when you create a new folder with name in the parenthesis() to indicate it is a group you create multiple folders that are routes grouped, you can create one `layout.tsx` in that folder whose name is written in the parenthesis which will modify the styling of all pages in that group of routes.
+
+  - **Individual Page Usage:** While `layout.tsx` can be used globally, you can also apply it selectively to individual pages when customization is needed, when you create a new folder with the route name in the src/app you create a page.tsx file in that folder that contains the code for that path's data, you can create a new `layout.tsx` file in that same folder to modify the styling of that particular page.
+
+- ### [Class 13 Code & Nextjs Project Example](https://github.com/usmanashrf/typescript-batch48/tree/main/Evening-section/nextj_proj/batch48-firstclass)
+
+Remember, each class builds on the previous ones, deepening your understanding of TypeScript and web development concepts. For detailed information about each topic, [class slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent#slide=id.gcb9a0b074_1_0).
 
 Feel free to explore the topics further through online resources, video tutorials, and hands-on practice. Happy learning!
 
