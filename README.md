@@ -359,6 +359,13 @@ These fundamental concepts are crucial for creating well-structured and maintain
 In this class, you explored a range of topics, from abstraction and abstract classes in TypeScript to the concepts of Next.js, server-side rendering, and the potential challenges posed by Web 3 technologies. Additionally, you learned about the differences between libraries and frameworks in the context of web development.
 
 - ### [Class 12 Code](https://github.com/usmanashrf/typescript-batch48/tree/main/Evening-section/Class-12)
+- ### Online Recorded Sessions & videos 📺:
+  - [Abstract Class](https://youtu.be/1JvHkO48GWQ)
+  - [What is React](https://youtu.be/Tn6-PIqc4UM)
+  - [What is Next.js](https://youtu.be/Sklc_fQBmcs)
+  - [Client-Side VS Server-Side Rendering](https://youtu.be/f1rF9YKm1Ms)
+  - [What is PlanetScale](https://youtu.be/e63OWkVmawY)
+  - [Library vs. Framework vs. language](https://youtu.be/K5DHRtLBLJM)
 
 # Class 13: NEXT.js Setup, .tsx Files, Routing, Linking, Grouping, and Layout Usage
 
