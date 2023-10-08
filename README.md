@@ -15,14 +15,17 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - [**Class 10: Asynchronous Programming in TypeScript, callback functions, and Promises**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-10-asynchronous-programming-in-typeScript-callback-functions-and-promises)
 - [**Class 11: Function Overloading, Tuples, Class Structural Typing, Inheritance, Constructors, and Access Modifiers**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-11-function-overloading-tuples-class-structural-typing-inheritance-constructors-and-access-modifiers-in-typeScript)
 ## Started NEXT JS.
-- ### [Learn Nextjs Step-by-Step](https://github.com/panaverse/learn-nextjs)
 - [**Class 12: Abstraction, Next.js, Server Side Rendering and Web 3, and Library vs. Framework**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-12-abstraction-nextjs-server-side-rendering-and-web-3-and-library-vs-framework)
+- [**Class 13: NEXT.js Setup, .tsx Files, Routing, Linking, Grouping, and Layout Usage**](https://github.com/a-rehman-ujjan/PIAIC-Classes/edit/main/README.md#class-13-nextjs-setup-tsx-files-routing-linking-grouping-and-layout-usage)
 
 # Getting Started Resources ⚙️
-- ### [Typescript Slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent?slide=id.gcb9a0b074_1_0)
-- ### [Getting Started Exercises](https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md)
-- ### [Advanced Typescript Step-By-Step](https://github.com/panaverse/learn-typescript)
-- ### [Node Projects](https://github.com/panaverse/learn-typescript/tree/master/NODE_PROJECTS)
+### Typescript:
+  - ### [Typescript Slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent?slide=id.gcb9a0b074_1_0)
+  - ### [Getting Started Exercises](https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md)
+  - ### [Advanced Typescript Step-By-Step](https://github.com/panaverse/learn-typescript)
+  - ### [Node Projects](https://github.com/panaverse/learn-typescript/tree/master/NODE_PROJECTS)
+### Nextjs:
+  - ### [Learn Nextjs Step-by-Step](https://github.com/panaverse/learn-nextjs)
 
 # Class 1: Introduction to TypeScript and Web Concepts
 
