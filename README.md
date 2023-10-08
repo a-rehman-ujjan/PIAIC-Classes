@@ -16,7 +16,7 @@ Welcome to the TypeScript Learning Journey! This README provides an overview of 
 - [**Class 11: Function Overloading, Tuples, Class Structural Typing, Inheritance, Constructors, and Access Modifiers**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-11-function-overloading-tuples-class-structural-typing-inheritance-constructors-and-access-modifiers-in-typeScript)
 ## Started NEXT JS.
 - [**Class 12: Abstraction, Next.js, Server Side Rendering and Web 3, and Library vs. Framework**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-12-abstraction-nextjs-server-side-rendering-and-web-3-and-library-vs-framework)
-- [**Class 13: NEXT.js Setup, .tsx Files, Routing, Linking, Grouping, and Layout Usage**](https://github.com/a-rehman-ujjan/PIAIC-Classes/edit/main/README.md#class-13-nextjs-setup-tsx-files-routing-linking-grouping-and-layout-usage)
+- [**Class 13: NEXT.js Setup, .tsx Files, Routing, Linking, Grouping, and Layout Usage**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-13-nextjs-setup-tsx-files-routing-linking-grouping-and-layout-usage)
 
 # Getting Started Resources ⚙️
 ### Typescript:
