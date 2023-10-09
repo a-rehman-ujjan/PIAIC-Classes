@@ -403,6 +403,12 @@ In this class, you explored a range of topics, from abstraction and abstract cla
   - **Individual Page Usage:** While `layout.tsx` can be used globally, you can also apply it selectively to individual pages when customization is needed, when you create a new folder with the route name in the src/app you create a page.tsx file in that folder that contains the code for that path's data, you can create a new `layout.tsx` file in that same folder to modify the styling of that particular page.
 
 - ### [Class 13 Code & Nextjs Project Example](https://github.com/usmanashrf/typescript-batch48/tree/main/Evening-section/nextj_proj/batch48-firstclass)
+- ### Online Recorded Sessions & videos 📺:
+  - [Nextjs Setup](https://youtu.be/gV_BsB1rGBU?t=21)
+  - [Routing in Nextjs](https://youtu.be/k2IQ-CcE7pk)
+  - [Grouping in Nextjs](https://youtu.be/MyVQ0TU-HcQ)
+  - [Linking in Nextjs](https://youtu.be/u8vaAc3ivcY)
+  - [Layouts in Nextjs](https://youtu.be/xWjpaDNWndA?list=PLuHGmgpyHfRx5FPRKBE7TvVYeIypTWIm9)
 
 Remember, each class builds on the previous ones, deepening your understanding of TypeScript and web development concepts. For detailed information about each topic, [class slides](https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/mobilepresent#slide=id.gcb9a0b074_1_0).
 
