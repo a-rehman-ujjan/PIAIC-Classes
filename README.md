@@ -1,4 +1,4 @@
-Welcome to the TypeScript Learning Journey! This README provides an overview of the topics covered in each class.
+Welcome to the PIAIC (AI, Web3, and Blockchain Development) Learning Journey! This README provides an overview of the topics covered in each class.
 
 📚 **Note:** This README is a work in progress. As more classes are covered, I will continue updating the file with detailed summaries, topics, and assignments. Stay tuned for comprehensive insights into TypeScript and web development concepts!
 
