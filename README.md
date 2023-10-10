@@ -3,7 +3,7 @@ Welcome to the PIAIC (AI, Web3, and Blockchain Development) Learning Journey! Th
 📚 **Note:** This README is a work in progress. As more classes are covered, I will continue updating the file with detailed summaries, topics, and assignments. Stay tuned for comprehensive insights into TypeScript and web development concepts!
 
 # Repo Map 🗺️
-## Typescript.
+### Typescript.
 - [**Class 1: Introduction to TypeScript, Web Concepts, Next.js and Serverless Technology**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-1-introduction-to-typescript-and-web-concepts)
 - [**Class 2: TypeScript Fundamentals, Variables, Primitive Data Types, Template Literals and Operators In Typescript**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-2-typescript-fundamentals)
 - [**Class 3: Functions, Arrays, and User Input**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-3-functions-arrays-and-user-input)
@@ -15,7 +15,7 @@ Welcome to the PIAIC (AI, Web3, and Blockchain Development) Learning Journey! Th
 - [**Class 9: Enums, Arrays, Functions, and Async in TypeScript**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-9-enums-arrays-functions-and-async-in-typescript)
 - [**Class 10: Asynchronous Programming in TypeScript, callback functions, and Promises**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-10-asynchronous-programming-in-typeScript-callback-functions-and-promises)
 - [**Class 11: Function Overloading, Tuples, Class Structural Typing, Inheritance, Constructors, and Access Modifiers**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-11-function-overloading-tuples-class-structural-typing-inheritance-constructors-and-access-modifiers-in-typeScript)
-## Started NEXT JS.
+### Started NEXT JS.
 - [**Class 12: Abstraction, Next.js, Server Side Rendering and Web 3, and Library vs. Framework**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-12-abstraction-nextjs-server-side-rendering-and-web-3-and-library-vs-framework)
 - [**Class 13: NEXT.js Setup, .tsx Files, Routing, Linking, Grouping, and Layout Usage**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-13-nextjs-setup-tsx-files-routing-linking-grouping-and-layout-usage)
 
