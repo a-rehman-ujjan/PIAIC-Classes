@@ -3,8 +3,8 @@ Welcome to the PIAIC (AI, Web3, and Blockchain Development) Learning Journey! Th
 📚 **Note:** This README is a work in progress. As more classes are covered, I will continue updating the file with detailed summaries, topics, and assignments. Stay tuned for comprehensive insights into TypeScript and web development concepts!
 
 # Repo Map 🗺️
-### [``` Typescript ```]()
-### [``` Next.Js ```]()
+### [``` Typescript ```](https://github.com/a-rehman-ujjan/PIAIC-Classes/tree/main#typescript-1)
+### [``` Next.Js ```](https://github.com/a-rehman-ujjan/PIAIC-Classes/tree/main#next-js)
 
 # Typescript.
 - [**Class 1: Introduction to TypeScript, Web Concepts, Next.js and Serverless Technology**](https://github.com/a-rehman-ujjan/PIAIC-Classes/blob/main/README.md#class-1-introduction-to-typescript-and-web-concepts)
